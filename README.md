@@ -1,4 +1,4 @@
-### oiee, meu nome é Ana Clara Missio e sou uma peogramadora em desenvolvimento com uma grande amor por robótica👋
+### oiee, meu nome é Ana Clara Missio e sou uma peogramadora em desenvolvimento com um grande amor por robótica👋
 
 <!--
 **AnaClaraM1ss10/AnaClaraM1ss10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
