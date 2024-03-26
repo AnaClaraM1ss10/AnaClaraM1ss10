@@ -1,0 +1,31 @@
+  #include <stdio.h>
+  
+  float salario = 3000; // salário base
+  float reajuste_salario = 0.05; // reajuste do salário
+  double acrescimo_salarial = 0; // vai receber o valor que deverá ser acrescido ao salário
+  float novo_salario = 0; // vai receber o novo valor do salário
+  int refeicao = 20; // valor inicial da refeição
+  int nova_refeicao = 28; // novo valor da refeição
+  int dias_trabalhados = 20; // dias úteis trabalhados
+  int horas_diarias = 6; // horas trabalhadas por dia
+  
+  int main(void) {
+  
+    //cálculos
+    acrescimo_salarial = (salario * reajuste_salario); // aqui retorna o acréscimo salarial, ou seja, 3000 * 0.05 = 150
+    novo_salario = (acrescimo_salarial + salario);
+    float horas_trabalhadas = (dias_trabalhados * horas_diarias);
+    float recebimento_hora = (novo_salario / horas_trabalhadas);
+    float salario_final = (nova_refeicao * dias_trabalhados) + novo_salario;
+  
+    // mostrar na tela
+    printf("O acréscimo salarial é de: R$ %.2f\n", acrescimo_salarial);
+    printf("O novo salário é R$ %.f\n", novo_salario);
+    printf("O total de horas trabalhadas é de: %.f\n", horas_trabalhadas);
+    printf("O valor recebido por hora é de: R$ %.2f\n", recebimento_hora); 
+    printf("Por fim, levando em consideração os reajustes,o novo salário é de: R$ %.2f\n", salario_final);
+    
+    
+    
+    return 0;
+  }
